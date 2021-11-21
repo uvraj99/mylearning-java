@@ -1,0 +1,19 @@
+class Square{
+    int length;
+    int width;
+    public void area(){
+        System.out.println(length*width);
+    }
+    
+   
+}
+public class MyClass {
+    public static void main(String args[]) {
+        Square newarea=new Square();    
+        newarea.length=5;
+        newarea.width=6;
+
+      newarea.area();
+    
+    }
+}
