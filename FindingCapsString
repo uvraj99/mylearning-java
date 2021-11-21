@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+		String string="abcdE";
+		for(int i =0; i<string.length(); i++){
+		    if(Character.isLowerCase(string.charAt(i))){
+		        
+		        System.out.println(string.charAt(i));
+		          
+		    }
+		}
+		
+	}
+}
