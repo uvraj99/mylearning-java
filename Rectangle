@@ -1,4 +1,4 @@
-class Square{
+class Rectangle{
     int length;
     int width;
     public void area(){
@@ -10,7 +10,7 @@ class Square{
 public class MyClass {
     public static void main(String args[]) {
         Square newarea=new Square();    
-        newarea.length=5;
+        newarea.length=7;
         newarea.width=6;
 
       newarea.area();
