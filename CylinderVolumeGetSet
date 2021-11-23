@@ -1,0 +1,31 @@
+class Cylinder{
+	    private int radius;
+	    private int height;
+	    
+	    public int getRadius(){
+	        return radius;
+	    }
+	    public void setRadius(int radius){
+	        this.radius=radius;
+	    }
+	     public int getHeight(){
+	        return height;
+	    }
+	    public void setHeight(int height){
+	        this.height=height;
+	    }
+	    public double surfaceArea(){
+            return 2* 3.14* radius * radius + 2*3.14*radius*height;
+	}
+	    
+	}
+public class Main
+{
+	public static void main(String[] args) {
+		Cylinder myCylinder = new Cylinder();
+		myCylinder.setHeight(9);
+		myCylinder.setRadius(14);
+		System.out.println(myCylinder.surfaceArea());
+		
+	}
+}
